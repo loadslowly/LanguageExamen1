@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c5d4442347334ccaa1c6f664d9d74f6c" Name="Diagram1">
+        <EntityTypeShape EntityType="SchoolLanguageModel.Client" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolLanguageModel.ClientService" Width="1.5" PointX="5.25" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolLanguageModel.Gender" Width="1.5" PointX="0.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolLanguageModel.Service" Width="1.5" PointX="3" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolLanguageModel.Worker" Width="1.5" PointX="3" PointY="9.5" IsExpanded="true" />
+        <AssociationConnector Association="SchoolLanguageModel.FK_Client_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolLanguageModel.FK_ClientService_Client" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolLanguageModel.FK_ClientService_Service" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolLanguageModel.FK_ClientService_Worker" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
